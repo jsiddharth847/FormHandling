@@ -1,0 +1,45 @@
+.feedback-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.feedback-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feedback-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-container input,
+.feedback-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-container button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-container button:hover {
+  background: #0056b3;
+}
+
+.feedback-container .confirmation {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+}
